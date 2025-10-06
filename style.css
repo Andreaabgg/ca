@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(198, 173, 230);
+    color: #333;
+}
+
+header {
+    background-color: rgb(66, 25, 112);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+ul#movie {
+    list-style: none;
+    padding: 0;
+}
+
+ul#movie li {
+    background-color: lightgoldenrodyellow;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+ul#movie li:hover {
+    background-color: #f8d2df;
+}
+
+#descripcion {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
